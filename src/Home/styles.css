@@ -1,0 +1,50 @@
+.bio {
+    text-align: left;
+    display: block;
+    padding-left: 5%;
+    width: 400px;
+    overflow: auto;
+}
+
+a {
+
+}
+
+a:link {
+    text-decoration: none;
+    color:blue;
+}
+
+a:visited {
+    text-decoration: none;
+    color:darkblue;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+
+}
+
+.links {
+    display: inline-flex;
+    align-items: center;
+    justify-content: left;
+
+}
+
+.logo {
+    image-rendering: auto;
+    height: 24px;
+    margin-right: 20px;
+}
+
+.pictures {
+    display: flex;
+}
+
+.home {
+    display: flex;
+}
