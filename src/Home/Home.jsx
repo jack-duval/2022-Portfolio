@@ -4,6 +4,7 @@ import "./styles.css"
 import twitterLogo from "../assets/twitter-blue-circle.svg"
 import githubLogo from "../assets/ghlogo.png";
 import liLogo from "../assets/LI-In-Bug.png";
+import twitchLogo from "../assets/TwitchGlitchPurple.svg"
 
 
 const Home = () => {
@@ -32,7 +33,7 @@ const Home = () => {
                 <p>
                     👨‍🔧 - I've also worked at Apple as a retail specialist, and at Northeastern University in IT.
                 </p>
-                <p>✉️ - jackduval(at)gmail(dot)com</p>
+                <p>✉️ - jackcduval(at)gmail(dot)com</p>
                 <div className={"links"}>
                     <a href={"https://www.linkedin.com/in/jack-duval/"}>
                         <Image className={"logo"} src={liLogo} />
@@ -44,6 +45,10 @@ const Home = () => {
                     <br />
                     <a href={"https://github.com/jack-duval"}>
                         <Image className={"logo"} src={githubLogo} />
+                    </a>
+                    <br />
+                    <a href={"https://www.twitch.tv/stumbledorejd"}>
+                        <Image className={"logo"} src={twitchLogo} />
                     </a>
                 </div>
             </div>
